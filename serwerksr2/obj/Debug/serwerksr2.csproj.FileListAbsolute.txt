@@ -1,0 +1,6 @@
+C:\Users\Ja\Source\Repos\serwerksr\serwerksr2\bin\Debug\serwerksr2.dll
+C:\Users\Ja\Source\Repos\serwerksr\serwerksr2\bin\Debug\serwerksr2.pdb
+C:\Users\Ja\Source\Repos\serwerksr\serwerksr2\obj\Debug\serwerksr2.csprojResolveAssemblyReference.cache
+C:\Users\Ja\Source\Repos\serwerksr\serwerksr2\obj\Debug\serwerksr2.csproj.CoreCompileInputs.cache
+C:\Users\Ja\Source\Repos\serwerksr\serwerksr2\obj\Debug\serwerksr2.dll
+C:\Users\Ja\Source\Repos\serwerksr\serwerksr2\obj\Debug\serwerksr2.pdb

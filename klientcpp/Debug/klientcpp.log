@@ -1,0 +1,6 @@
+﻿  klientcpp.cpp
+c:\users\ja\source\repos\serwerksr\klientcpp\klientcpp.cpp(76): error C2065: 'stos': undeclared identifier
+c:\users\ja\source\repos\serwerksr\klientcpp\klientcpp.cpp(88): error C2664: 'long IKalkulator::Add(long *,long,long)': cannot convert argument 1 from 'long' to 'long *'
+  c:\users\ja\source\repos\serwerksr\klientcpp\klientcpp.cpp(88): note: Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+c:\users\ja\source\repos\serwerksr\klientcpp\klientcpp.cpp(90): error C2664: 'long IKalkulator::Sub(long *,long,long)': cannot convert argument 1 from 'long' to 'long *'
+  c:\users\ja\source\repos\serwerksr\klientcpp\klientcpp.cpp(90): note: Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast

@@ -1,0 +1,7 @@
+c:\users\ja\Source\Repos\serwerksr\klient\bin\Debug\klient.exe.config
+c:\users\ja\Source\Repos\serwerksr\klient\bin\Debug\klient.exe
+c:\users\ja\Source\Repos\serwerksr\klient\bin\Debug\klient.pdb
+c:\users\ja\Source\Repos\serwerksr\klient\obj\Debug\klient.csprojResolveAssemblyReference.cache
+c:\users\ja\Source\Repos\serwerksr\klient\obj\Debug\klient.csproj.CoreCompileInputs.cache
+c:\users\ja\Source\Repos\serwerksr\klient\obj\Debug\klient.exe
+c:\users\ja\Source\Repos\serwerksr\klient\obj\Debug\klient.pdb

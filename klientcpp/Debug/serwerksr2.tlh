@@ -1,0 +1,76 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.13.26128.0 (11b47293).
+//
+// c:\users\ja\source\repos\serwerksr\klientcpp\debug\serwerksr2.tlh
+//
+// C++ source equivalent of Win32 type library serwerksr2.tlb
+// compiler-generated file created 04/16/18 at 23:23:17 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("7dd7d7d6-ff45-4caf-999b-1afcce796602"))
+/* LIBID */ __serwerksr2;
+struct __declspec(uuid("3f5a083c-73a8-4b2c-b4cf-ba72098827cc"))
+/* dual interface */ IKalkulator;
+struct /* coclass */ Kalkulator;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(IKalkulator, __uuidof(IKalkulator));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("3f5a083c-73a8-4b2c-b4cf-ba72098827cc"))
+IKalkulator : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    long Add (
+        long * v,
+        long a,
+        long b );
+    long Sub (
+        long * v,
+        long a,
+        long b );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_Add (
+        /*[out]*/ long * v,
+        /*[in]*/ long a,
+        /*[in]*/ long b,
+        /*[out,retval]*/ long * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_Sub (
+        /*[out]*/ long * v,
+        /*[in]*/ long a,
+        /*[in]*/ long b,
+        /*[out,retval]*/ long * pRetVal ) = 0;
+};
+
+struct __declspec(uuid("f3371a3d-0c76-4328-8bac-3f179ab4a75b"))
+Kalkulator;
+    // interface _Object
+    // [ default ] interface IKalkulator
+
+//
+// Wrapper method implementations
+//
+
+#include "c:\users\ja\source\repos\serwerksr\klientcpp\debug\serwerksr2.tli"
+
+#pragma pack(pop)

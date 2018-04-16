@@ -1,0 +1,68 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.13.26128.0 (e6bc2ba7).
+//
+// c:\users\ja\source\repos\serwerksr\klientcpp\debug\serwerksr.tlh
+//
+// C++ source equivalent of Win32 type library serwerksr.tlb
+// compiler-generated file created 04/16/18 at 23:23:17 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("025600cf-717c-4b18-a1b6-f8fdbc17f706"))
+/* LIBID */ __serwerksr;
+struct __declspec(uuid("57bd4399-e51b-40db-b11a-59948343aee6"))
+/* dual interface */ IStos;
+struct /* coclass */ Stos;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(IStos, __uuidof(IStos));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("57bd4399-e51b-40db-b11a-59948343aee6"))
+IStos : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    long Push (
+        long v );
+    long Pop (
+        long * v );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_Push (
+        /*[in]*/ long v,
+        /*[out,retval]*/ long * pRetVal ) = 0;
+      virtual HRESULT __stdcall raw_Pop (
+        /*[out]*/ long * v,
+        /*[out,retval]*/ long * pRetVal ) = 0;
+};
+
+struct __declspec(uuid("6b920dfc-e058-4a99-802d-c8fd0dcd0e97"))
+Stos;
+    // interface _Object
+    // [ default ] interface IStos
+
+//
+// Wrapper method implementations
+//
+
+#include "c:\users\ja\source\repos\serwerksr\klientcpp\debug\serwerksr.tli"
+
+#pragma pack(pop)
